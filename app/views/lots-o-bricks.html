@@ -3,23 +3,23 @@
 <div class="row bricksList">
   <div id="LoB-{{size}}" class="col-sm-4 well" ng-repeat="(size, brick) in lotsStore.redBricks">
     <p>Size: Red {{size}}</p>
-    <p>Quantity: <span class="quantity">{{brick.quantity}}</span></p>
-    <p>Price: {{brick.price}}</p>
-    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
-    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
+    <p>Quantity: <span class="quantity">{{lotsStore.quantity}}</span></p>
+    <p>Price: {{lotsStore.price}}</p>
+    <button class="buyButton" ng-click="lotsStore.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="lotsStore.return(color, size)">Return</button>
   </div>
   <div id="LoB-{{size}}" class="col-sm-4 well" ng-repeat="(size, brick) in lotsStore.blueBricks">
     <p>Size: Blue {{size}}</p>
-    <p>Quantity: {{brick.quantity}}</p>
-    <p>Price: {{brick.price}}</p>
-    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
-    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
+    <p>Quantity: {{lotsStore.quantity}}</p>
+    <p>Price: {{lotsStore.price}}</p>
+    <button class="buyButton" ng-click="lotsStore.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="lotsStore.return(color, size)">Return</button>
   </div>
   <div id="LoB-{{size}}" class="col-sm-4 well" ng-repeat="(size, brick) in lotsStore.greenBricks">
     <p>Size: Green {{size}}</p>
-    <p>Quantity: {{brick.quantity}}</p>
-    <p>Price: {{brick.price}}</p>
-    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
-    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
+    <p>Quantity: {{lotsStore.quantity}}</p>
+    <p>Price: {{lotsStore.price}}</p>
+    <button class="buyButton" ng-click="lotsStore.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="lotsStore.return(color, size)">Return</button>
   </div>
 </div>

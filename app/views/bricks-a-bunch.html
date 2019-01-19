@@ -3,9 +3,9 @@
 <ul class="row bricksList">
   <li id="BaB-{{size}}" class="col-sm-3 well brick-{{size}}" ng-repeat="(size, brick) in bunchesStore.redBricks">
     <p>Size: {{size}}</p>
-    <p>Quantity: <span class="quantity">{{brick.quantity}}</span></p>
-    <p>Price: {{brick.price}}</p>
-    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
-    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
+    <p>Quantity: <span class="quantity">{{bunchesStore.quantity}}</span></p>
+    <p>Price: {{bunchesStore.price}}</p>
+    <button class="buyButton" ng-click="bunchesStore.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="bunchesStore.return(color, size)">Return</button>
   </li>
 </ul>
