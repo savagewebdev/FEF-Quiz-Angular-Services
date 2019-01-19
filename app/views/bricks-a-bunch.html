@@ -5,5 +5,7 @@
     <p>Size: {{size}}</p>
     <p>Quantity: <span class="quantity">{{brick.quantity}}</span></p>
     <p>Price: {{brick.price}}</p>
+    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
   </li>
 </ul>

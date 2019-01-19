@@ -5,15 +5,21 @@
     <p>Size: Red {{size}}</p>
     <p>Quantity: <span class="quantity">{{brick.quantity}}</span></p>
     <p>Price: {{brick.price}}</p>
+    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
   </div>
   <div id="LoB-{{size}}" class="col-sm-4 well" ng-repeat="(size, brick) in lotsStore.blueBricks">
     <p>Size: Blue {{size}}</p>
     <p>Quantity: {{brick.quantity}}</p>
     <p>Price: {{brick.price}}</p>
+    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
   </div>
   <div id="LoB-{{size}}" class="col-sm-4 well" ng-repeat="(size, brick) in lotsStore.greenBricks">
     <p>Size: Green {{size}}</p>
     <p>Quantity: {{brick.quantity}}</p>
     <p>Price: {{brick.price}}</p>
+    <button class="buyButton" ng-click="store.buy(color, size)">Buy</button>
+    <button class="returnButton" ng-click="store.return(color, size)">Return</button>
   </div>
 </div>
