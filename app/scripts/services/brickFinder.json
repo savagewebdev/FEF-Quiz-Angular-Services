@@ -1,0 +1,50 @@
+{
+	"bricks-a-bunch" {
+		"red bricks": {
+			'1x1': {
+				"quantity": 13,
+				"price": 0.01
+			},
+			'2x2': {
+				"quantity": 48,
+				"price": 0.03
+			},
+			'2x6': {
+				"quantity": 9,
+				"price": 0.05
+			},
+		},
+	},
+	"lots-o-bricks" {
+		"red bricks": {
+			'1x1': {
+				"quantity": 16,
+				"price": 0.01
+			},
+			'2x6': {
+				"quantity": 18,
+				"price": 0.05
+			},
+		},
+		"blue bricks": {
+			'2x2': {
+				"quantity": 7,
+				"price": 0.02
+			},
+			'2x4': {
+				"quantity": 2,
+				"price": 0.04
+			},
+		},
+		"green bricks": {
+			'2x4': {
+				"quantity": 13,
+				"price": 0.04
+			},
+			'2x8': {
+				"quantity": 41,
+				"price": 0.08
+			}
+		}	
+	}
+}
